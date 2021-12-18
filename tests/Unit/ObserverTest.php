@@ -13,8 +13,8 @@ class ObserverTest extends TestCase
     public function calculate_perimeter(): void{
         $stock_simulator = new StockSimulator();
         $company1 = new Google(19.99);
-        $company2 = new Apple(15.99);
         $stock_simulator->add($company1);
+        $company2 = new Apple(15.99);
         $stock_simulator->add($company2);
         $stock_simulator->update();
         $this->assertEquals([], []);
