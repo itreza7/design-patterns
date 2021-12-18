@@ -2,7 +2,8 @@
 
 namespace App\Behavioral\Observer;
 
-class Observer
+interface Observer
 {
-
+    public function add(Company $subject);
+    public function notify($price);
 }
