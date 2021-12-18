@@ -1,0 +1,26 @@
+{
+  "name": "itreza7/design-patterbs",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "itreza7",
+      "email": "itreza7@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
