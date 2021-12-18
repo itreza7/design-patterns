@@ -1,5 +1,7 @@
 # Facade
-![](https://refactoring.guru/images/patterns/diagrams/facade/live-example-en.png)
+<p style="text-align: center">
+<img src="https://refactoring.guru/images/patterns/diagrams/facade/live-example-en.png" alt="Facade">
+</p>
 <p>
 The Facade class can help us when there is a complex relationship between different classes that are related to each other.
 </p>
