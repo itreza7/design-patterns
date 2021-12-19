@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 class ObserverTest extends TestCase
 {
     /** @test */
-    public function calculate_perimeter(): void{
+    public function observer_test(): void{
         $stock_simulator = new StockSimulator();
         $company1 = new Google(19.99);
         $stock_simulator->add($company1);
